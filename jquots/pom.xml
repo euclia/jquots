@@ -79,6 +79,20 @@
         
     </dependencies>
     
+    <developers>
+        <developer>
+            <name>Pantelis Karatzas</name>
+            <email>pantelispanka@gmail.com</email>
+            <organization>Euclia</organization>
+            <organizationUrl>https://euclia.xyz</organizationUrl>
+        </developer>
+    </developers>
+    
 
+    <scm>
+        <connection>scm:git:git://github.com/euclia/JQuots.git</connection>
+        <developerConnection>scm:git:ssh://github.com:euclia/JQuots.git</developerConnection>
+        <url>http://github.com/euclia/JQuots/tree/master</url>
+    </scm>
 
 </project>
