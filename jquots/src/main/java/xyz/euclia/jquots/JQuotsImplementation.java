@@ -34,8 +34,7 @@ public class JQuotsImplementation implements JQuots {
     
     /**
      *
-     * Get user by id
-     * A GET method at /users/{id} path.
+     * Get user by id A GET method at /users/{id} path.
      *
      * @param id is the users to be created id
      * @return Future Response get the response when finished.
@@ -60,16 +59,13 @@ public class JQuotsImplementation implements JQuots {
     
     /**
      *
-     * Creates user
-     * The body of the request should be a QuotsUser object
-     * A POST method at /users path.
+     * Creates user A POST method at /users The request body should be a QuotsUser 
      *
      * @param id is the users to be created id
      * @param username is the users to be created username
-     * @param email is the  users to be created email
-     * @return Future Response get the response when finished.
-     * If 200 status you get the user that created 
-     * Other you get an ErrorReport.
+     * @param email is the users to be created email
+     * @return Future Response get the response when finished. If 200 status
+     * you get the user that created Other you get an ErrorReport.
      *
      */
     @Override
@@ -83,10 +79,7 @@ public class JQuotsImplementation implements JQuots {
 
     /**
      *
-     * Checks user's ability to continue the task 
-     * After the call user's credits
-     * will be subtracted 
-     * A GET method at /users/{id}/quots?appid={appid}&usage={usageType}&size={usageSize}
+     * Checks user's ability to continue the task after the call users credits will be subtracted after a GET method at /users/{id}/quots with appid, usageType and usageSize params.
      *
      * @param userid is the users id
      * @param usageType is the procedures type

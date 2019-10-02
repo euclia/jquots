@@ -45,8 +45,7 @@ public interface JQuots extends Closeable {
     Future<Response> createUser(String id, String username, String email);
     /**
      *
-     * Checks user's ability to continue the task After the call user's credits
-     * will be subtracted a GET method at /users/{id}/quots?appid={appid}&usage={usageType}&size={usageSize}
+     * Checks user's ability to continue the task after the call users credits will be subtracted after a GET method at /users/{id}/quots with appid, usageType and usageSize params.
      *
      * @param userid is the users id
      * @param usageType is the procedures type
@@ -73,7 +72,7 @@ public interface JQuots extends Closeable {
      * The provided credits will be the user's credits!
      * A PUT method at /users/{id} path. 
      *
-     * @param qu is the user that is to be updated
+     * @param quotsUser is the user that is to be updated
      * @return Future Response Get the response when finished. If status 200
      * body contains the updated user. Other than 200 returns an ErrorReport.
      */
