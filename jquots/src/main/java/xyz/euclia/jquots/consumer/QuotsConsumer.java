@@ -5,24 +5,13 @@
  */
 package xyz.euclia.jquots.consumer;
 
-import io.netty.handler.codec.http.HttpHeaders;
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.io.SequenceInputStream;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.Future;
-import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHttpClient;
-import org.asynchttpclient.HttpResponseBodyPart;
-import org.asynchttpclient.HttpResponseStatus;
 import org.asynchttpclient.Param;
 import org.asynchttpclient.Response;
 import xyz.euclia.jquots.exception.JQuotsException;
-import xyz.euclia.jquots.models.CanProceed;
-import xyz.euclia.jquots.models.ErrorReport;
-import xyz.euclia.jquots.models.Quots;
 import xyz.euclia.jquots.models.QuotsUser;
 import xyz.euclia.jquots.serialize.Serializer;
 

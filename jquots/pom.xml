@@ -7,7 +7,7 @@
     </organization>
     <groupId>xyz.euclia</groupId>
     <artifactId>jquots</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.4</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,7 +17,7 @@
     
     <name>JQuots</name>
     <description>JQuots is the client of the Quots application</description>
-    <url>http://github.com/euclia/JQuots/</url>
+    <url>http://github.com/euclia/jquots/</url>
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
@@ -141,9 +141,9 @@
     
 
     <scm>
-        <connection>scm:git:git://github.com/euclia/JQuots.git</connection>
-        <developerConnection>scm:git:ssh://github.com:euclia/JQuots.git</developerConnection>
-        <url>http://github.com/euclia/JQuots/tree/master</url>
+        <connection>scm:git:git://github.com/euclia/jquots.git</connection>
+        <developerConnection>scm:git:ssh://github.com:euclia/jquots.git</developerConnection>
+        <url>http://github.com/euclia/jquots/tree/master</url>
     </scm>
     
     <distributionManagement>

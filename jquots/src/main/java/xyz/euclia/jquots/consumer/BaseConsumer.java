@@ -10,17 +10,13 @@ import java.io.ByteArrayInputStream;
 import java.io.InputStream;
 import java.io.SequenceInputStream;
 import java.util.List;
-import java.util.Map;
 import java.util.concurrent.CompletableFuture;
 import org.asynchttpclient.AsyncHandler;
 import org.asynchttpclient.AsyncHttpClient;
-import org.asynchttpclient.BoundRequestBuilder;
 import org.asynchttpclient.HttpResponseBodyPart;
 import org.asynchttpclient.HttpResponseStatus;
 import org.asynchttpclient.Param;
-import org.asynchttpclient.Response;
 import xyz.euclia.jquots.exception.JQuotsException;
-import xyz.euclia.jquots.models.ErrorReport;
 import xyz.euclia.jquots.serialize.Serializer;
 
 /**
